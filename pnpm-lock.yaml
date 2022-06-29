@@ -28,6 +28,7 @@ specifiers:
   react-spring: ^9.4.5
   sass: ^1.52.3
   styled-components: ^5.3.5
+  three: ^0.142.0
   typed-scss-modules: ^6.5.0
   typescript: ^4.7.4
   web-vitals: ^2.1.4
@@ -55,7 +56,7 @@ dependencies:
   react-redux: 8.0.2_fzknh3pugl53jp7xsetxkg5ani
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   react-scripts: 5.0.1_evleu75usofu245y3n7kory4xe
-  react-spring: 9.4.5_biqbaboplfbrettd7655fr4n2y
+  react-spring: 9.4.5_5kidazjkmgjhxqotnaqokpbepa
   sass: 1.53.0
   styled-components: 5.3.5_biqbaboplfbrettd7655fr4n2y
   typed-scss-modules: 6.5.0_sass@1.53.0
@@ -65,6 +66,7 @@ dependencies:
 devDependencies:
   '@types/react-router-dom': 5.3.3
   '@types/styled-components': 5.1.25
+  three: 0.142.0
 
 packages:
 
@@ -2154,7 +2156,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@react-spring/three/9.4.5_react@18.2.0:
+  /@react-spring/three/9.4.5_react@18.2.0+three@0.142.0:
     resolution: {integrity: sha512-mArxfIhg9kyFL/8Y09TarS/ZKLd/qAWS4T3Ro/B46ILPfPnoPywDdw9/rknZihy/tslnviCgMrB4pZ29X1Dfxw==}
     peerDependencies:
       '@react-three/fiber': '>=6.0'
@@ -2166,6 +2168,7 @@ packages:
       '@react-spring/shared': 9.4.5_react@18.2.0
       '@react-spring/types': 9.4.5
       react: 18.2.0
+      three: 0.142.0
     dev: false
 
   /@react-spring/types/9.4.5:
@@ -9593,13 +9596,13 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /react-spring/9.4.5_biqbaboplfbrettd7655fr4n2y:
+  /react-spring/9.4.5_5kidazjkmgjhxqotnaqokpbepa:
     resolution: {integrity: sha512-FRIXQGR+jG+Fx4UcqhF0b5jMEU3Q5QcZ8rEVWKqZgrrn92C1HcqtuZy7dH+rZ6uNGjnlV7HBf8iprJaJ+350LA==}
     dependencies:
       '@react-spring/core': 9.4.5_react@18.2.0
       '@react-spring/konva': 9.4.5_react@18.2.0
       '@react-spring/native': 9.4.5_react@18.2.0
-      '@react-spring/three': 9.4.5_react@18.2.0
+      '@react-spring/three': 9.4.5_react@18.2.0+three@0.142.0
       '@react-spring/web': 9.4.5_biqbaboplfbrettd7655fr4n2y
       '@react-spring/zdog': 9.4.5_biqbaboplfbrettd7655fr4n2y
     transitivePeerDependencies:
@@ -10663,6 +10666,9 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: false
+
+  /three/0.142.0:
+    resolution: {integrity: sha512-ESjPO+3geFr+ZUfVMpMnF/eVU2uJPOh0e2ZpMFqjNca1wApS9lJb7E4MjwGIczgt9iuKd8PEm6Pfgp2bJ92Xtg==}
 
   /throat/6.0.1:
     resolution: {integrity: sha512-8hmiGIJMDlwjg7dlJ4yKGLK8EsYqKgPWbG3b4wjJddKNwc7N7Dpn08Df4szr/sZdMVeOstrdYSsqzX6BYbcB+w==}
