@@ -28,7 +28,7 @@ camera.position.z = 1;
 const scene = new THREE.Scene();
 
 const geometry = new THREE.SphereGeometry(0.4, 30, 30);
-const texture = new THREE.TextureLoader().load("textures/earth.jpg");
+const texture = new THREE.TextureLoader().load("textures/earth2.jpg");
 const material = new THREE.MeshBasicMaterial({ map: texture });
 
 const mesh = new THREE.Mesh(geometry, material);
@@ -37,7 +37,8 @@ mesh.rotation.z = 50;
 scene.add(mesh);
 
 
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setClearColor( 0x000000, 0); // the default
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setAnimationLoop(animation);
 document.body.appendChild(renderer.domElement);
@@ -50,6 +51,7 @@ function animation(time: any) {
   // render object each frame
   renderer.render(scene, camera);
 }
+
 
 export const Menu: React.FC = () => {
   return (
